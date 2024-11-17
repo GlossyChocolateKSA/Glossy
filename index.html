@@ -15,8 +15,9 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mada:wght@200..900&family=Marhey:wght@300..700&display=swap"
+    rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,11 +47,13 @@
 
   body {
     background-image: url("image/Untitled\ design\ \(7\).png");
-    
-    background-size: cover; /* Makes the image cover the entire element */
-    background-position: center; /* Centers the image */
+
+    background-size: cover;
+    /* Makes the image cover the entire element */
+    background-position: center;
+    /* Centers the image */
     background-repeat: repeat;
-    
+
   }
 
   .location {
@@ -73,7 +76,7 @@
     text-align: center;
   }
 
-  
+
   button.accordion-button::after {
     text-align: center;
     background: white;
@@ -85,8 +88,8 @@
   .logo {
     text-align: center;
     /* background-color: rgba(220, 198, 170, ); */
-    background-image: linear-gradient(to bottom,  #F1F1F1 65%,rgb(255,195,96));
-        padding-bottom: 0px;
+    background-image: linear-gradient(to bottom, #F1F1F1 65%, rgb(255, 195, 96));
+    padding-bottom: 0px;
     padding-top: 25px;
     margin-top: 100px;
     border-radius: 20px;
@@ -102,7 +105,7 @@
     text-align: center;
     padding-bottom: 100px;
     padding-top: 30px;
-    background-image: linear-gradient(to bottom, rgb(255,195,96), rgb(255,195,96));
+    background-image: linear-gradient(to bottom, rgb(255, 195, 96), rgb(255, 195, 96));
 
   }
 
@@ -131,124 +134,147 @@
   }
 
   body {
-    
-    background-color:rgb(255,183,64);
+
+    background-color: rgb(255, 183, 64);
     ;
   }
 
   .container {
     padding: 0;
-    
-    background-image: linear-gradient(to bottom, rgb(255,195,96), rgb(255,195,96));
+
+    background-image: linear-gradient(to bottom, rgb(255, 195, 96), rgb(255, 195, 96));
     border-radius: 20px;
   }
 
   button::before {
     color: rgb(0, 0, 0);
   }
-  .container{
+
+  .container {
     width: 90%;
   }
 
 
   .accordion-button:not(.collapsed) {
-    background-color: rgb(255,195,96); /* لون خلفية الزر عند الفتح */
-    color: white; /* لون النص */
-    border-color: rgb(255,195,96); /* لون حدود الزر */
-}
+    background-color: rgb(255, 195, 96);
+    /* لون خلفية الزر عند الفتح */
+    color: white;
+    /* لون النص */
+    border-color: rgb(255, 195, 96);
+    /* لون حدود الزر */
+  }
 
-.accordion-button:not(.collapsed):hover {
-    background-color: rgb(255,195,96); /* لون خلفية الزر عند التمرير عليه */
-    border-color: rgb(255,195,96); /* لون حدود الزر عند التمرير */
-}
+  .accordion-button:not(.collapsed):hover {
+    background-color: rgb(255, 195, 96);
+    /* لون خلفية الزر عند التمرير عليه */
+    border-color: rgb(255, 195, 96);
+    /* لون حدود الزر عند التمرير */
+  }
 
 
 
 
-.accordion-button{
-  background-image: linear-gradient(to bottom, rgb(255,195,96), rgb(255,195,96));
-  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 rgb(255,195,96);
-color: #000;
+  .accordion-button {
+    background-image: linear-gradient(to bottom, rgb(255, 195, 96), rgb(255, 195, 96));
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 rgb(255, 195, 96);
+    color: #000;
 
-}
-.accordion{
-  border-color: rgb(255,195,96);
-  box-shadow: rgb(255,195,96);
-}
-.accordion-item{
-  background-color: rgb(255,195,96);
-  border: rgb(255,195,96);
-}
+  }
+
+  .accordion {
+    border-color: rgb(255, 195, 96);
+    box-shadow: rgb(255, 195, 96);
+  }
+
+  .accordion-item {
+    background-color: rgb(255, 195, 96);
+    border: rgb(255, 195, 96);
+  }
+
   .bs-accordion {
-    border: 1px solid rgb(255,195,96); /* لون الحدود الافتراضي */
-}
+    border: 1px solid rgb(255, 195, 96);
+    /* لون الحدود الافتراضي */
+  }
 
-.bs-accordion .accordion-item {
-    border: 1px solid rgb(255,195,96); /* لون حدود كل عنصر في الـ Accordion */
-}
+  .bs-accordion .accordion-item {
+    border: 1px solid rgb(255, 195, 96);
+    /* لون حدود كل عنصر في الـ Accordion */
+  }
 
-.bs-accordion .accordion-header {
-    border-bottom: 1px solid rgb(255,195,96); /* لون حدود العنوان */
-}
+  .bs-accordion .accordion-header {
+    border-bottom: 1px solid rgb(255, 195, 96);
+    /* لون حدود العنوان */
+  }
 
-.bs-accordion .accordion-body {
-    border-top: 1px solid rgb(255,195,96); /* لون حدود المحتوى */
-}
-
-
-section{
-  background-color: rgb(255,195,96);
-}
-  
-.portfolio-wrap img {
-    max-width: 100%; /* تأكد من عرض الصورة بشكل كامل داخل العنصر */
-    height: 200px; /* الحفاظ على نسبة العرض إلى الارتفاع */
-}
+  .bs-accordion .accordion-body {
+    border-top: 1px solid rgb(255, 195, 96);
+    /* لون حدود المحتوى */
+  }
 
 
-        .goal-container {
-          display: grid;
-          /* استخدام grid */
-          grid-template-columns: repeat(3, 1fr);
-          /* ثلاثة أعمدة في الشاشات العادية */
-          gap: 20px;
-          /* المسافة بين العناصر */
-        }
-        
-        @media (max-width: 768px) {
-          .goal-container {
-            grid-template-columns: repeat(3, 1fr);
-            /* ثلاثة أعمدة على الشاشات الصغيرة */
-          }
-        }
+  section {
+    background-color: rgb(255, 195, 96);
+  }
 
-        @media (max-width: 576px) {
-          .goal-container {
-            grid-template-columns: repeat(3, 1fr);
-            /* عمودين على الشاشات الأصغر */
-          }
-        }
+  .portfolio-wrap img {
+    max-width: 100%;
+    /* تأكد من عرض الصورة بشكل كامل داخل العنصر */
+    height: 200px;
+    /* الحفاظ على نسبة العرض إلى الارتفاع */
+  }
 
-        .goal-container img {
-    width: 100%; /* يجعل الصورة تأخذ عرض العنصر */
-    height: auto; /* يحافظ على نسبة العرض إلى الارتفاع */
-    object-fit: cover; /* لضبط الصورة لتملأ العنصر دون فقدان النسبة */
-}
-.goal-container img {
+
+  .goal-container {
+    display: grid;
+    /* استخدام grid */
+    grid-template-columns: repeat(3, 1fr);
+    /* ثلاثة أعمدة في الشاشات العادية */
+    gap: 20px;
+    /* المسافة بين العناصر */
+  }
+
+  @media (max-width: 768px) {
+    .goal-container {
+      grid-template-columns: repeat(3, 1fr);
+      /* ثلاثة أعمدة على الشاشات الصغيرة */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .goal-container {
+      grid-template-columns: repeat(3, 1fr);
+      /* عمودين على الشاشات الأصغر */
+    }
+  }
+
+  .goal-container img {
     width: 100%;
-    height: 100px; /* ارتفاع ثابت */
-    object-fit: cover; /* للحفاظ على نسبة العرض إلى الارتفاع */
-}
-.accordion-button h2{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-}
-.accordion-button{
-  color: #683b00;
-}
+    /* يجعل الصورة تأخذ عرض العنصر */
+    height: auto;
+    /* يحافظ على نسبة العرض إلى الارتفاع */
+    object-fit: cover;
+    /* لضبط الصورة لتملأ العنصر دون فقدان النسبة */
+  }
+
+  .goal-container img {
+    width: 100%;
+    height: 100px;
+    /* ارتفاع ثابت */
+    object-fit: cover;
+    /* للحفاظ على نسبة العرض إلى الارتفاع */
+  }
+
+  .accordion-button h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .accordion-button {
+    color: #683b00;
+  }
 </style>
 
 <body>
@@ -278,16 +304,16 @@ section{
     </div>
 
     <div class="accordion" id="accordionExample">
-      
-      
 
-    
-      
+
+
+
+
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          الشوكلت
+            الشوكلت
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -298,164 +324,175 @@ section{
               <div class="row goal-container">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no1.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no1.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco1.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> باشن فروت فيوتين  </p>
+                  <p> باشن فروت فيوتين </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no2.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no2.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco2.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   حلقوم بقلاوة مع قطع الفستق</p>
+                  <p> حلقوم بقلاوة مع قطع الفستق</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no3.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no3.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco3.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   بقلاوة بالفستق</p>
+                  <p> بقلاوة بالفستق</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no4.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no4.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco4.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> اصابع روز بيري  </p>
+                  <p> اصابع روز بيري </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no5.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no5.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco5.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   بنت بتر كرانشي</p>
+                  <p> بنت بتر كرانشي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no6.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no6.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco6.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> حلقوم التفاحة  </p>
+                  <p> حلقوم التفاحة </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no7.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no7.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco7.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   حلقوم بستاشيو</p>
+                  <p> حلقوم بستاشيو</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no8.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no8.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco8.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> كريمه الفراوله مع قطع الفراولة  </p>
+                  <p> كريمه الفراوله مع قطع الفراولة </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no9.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no9.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco9.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   كرميللو بيكن</p>
+                  <p> كرميللو بيكن</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no10.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no10.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco10.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> كوكيز  </p>
+                  <p> كوكيز </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no11.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no11.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco11.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   حلقوم بنت بتر</p>
+                  <p> حلقوم بنت بتر</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no12.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no12.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco12.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -464,12 +501,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no13.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no13.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco13.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -478,12 +516,13 @@ section{
                   </div>
                   <p> حلوى بحريني ورده</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no14.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no14.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco14.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -492,12 +531,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no15.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no15.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco15.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -506,12 +546,13 @@ section{
                   </div>
                   <p> بابلز شوكلت برالين</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no16.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no16.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco16.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -520,12 +561,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no17.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no17.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco17.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -534,26 +576,28 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no18.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no18.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco18.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> قلاش روز بيري  </p>
+                  <p> قلاش روز بيري </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no19.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no19.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco19.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -562,124 +606,133 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no20.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no20.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco20.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> مانجو فيةتين  </p>
+                  <p> مانجو فيةتين </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no21.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no21.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco21.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> فلورتين بستاشيو  </p>
+                  <p> فلورتين بستاشيو </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no22.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no22.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco22.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   سمسمية كراميل</p>
+                  <p> سمسمية كراميل</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no23.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no23.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco23.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> سجنتشر قلوسي كرانش  </p>
+                  <p> سجنتشر قلوسي كرانش </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no24.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no24.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco24.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   حلقوم بسكوت</p>
+                  <p> حلقوم بسكوت</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no25.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no25.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco25.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>  ماكرون توت </p>
+                  <p> ماكرون توت </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no26.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no26.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco26.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> مفروكة فستق  </p>
+                  <p> مفروكة فستق </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no27.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no27.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco27.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   سمسمية رهش</p>
+                  <p> سمسمية رهش</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no28.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no28.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco28.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -688,12 +741,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no29.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no29.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco29.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -702,26 +756,28 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no30.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no30.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco30.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> جندويا كرانشي لوز  </p>
+                  <p> جندويا كرانشي لوز </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no31.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no31.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco31.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -730,12 +786,13 @@ section{
                   </div>
                   <p> غستق توفي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no32.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no32.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco32.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -744,12 +801,13 @@ section{
                   </div>
                   <p> برالين نجمه كرانشي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no33.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no33.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco33.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -758,12 +816,13 @@ section{
                   </div>
                   <p> موكا كرانشي دائري</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no34.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no34.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco34.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -772,12 +831,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no35.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no35.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco35.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -786,12 +846,13 @@ section{
                   </div>
                   <p> مارينج بنت بتر</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no36.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no36.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco36.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -800,12 +861,13 @@ section{
                   </div>
                   <p> تاكو مكسرات</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no37.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no37.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco37.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -814,12 +876,13 @@ section{
                   </div>
                   <p> حلا بحريني </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no38.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no38.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco38.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -828,12 +891,13 @@ section{
                   </div>
                   <p> اصابع جوز الهند</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no39.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no39.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco39.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -842,12 +906,13 @@ section{
                   </div>
                   <p> سولتد كراميل دائري</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no40.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no40.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco40.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -856,12 +921,13 @@ section{
                   </div>
                   <p> مربع قهوة الشوكولاته</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no41.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no41.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco41.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -870,12 +936,13 @@ section{
                   </div>
                   <p> مربع قلوسي كرانشي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no42.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no42.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco42.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -884,12 +951,13 @@ section{
                   </div>
                   <p> سولتد جندويا</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no43.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no43.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco43.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -898,12 +966,13 @@ section{
                   </div>
                   <p> جوز هند كرانش</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no44.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no44.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco44.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -912,12 +981,13 @@ section{
                   </div>
                   <p> رويالتين</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no45.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no45.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco45.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -926,12 +996,13 @@ section{
                   </div>
                   <p> حلقوم كروكان بستاشيو ورد</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no46.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no46.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco46.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -940,12 +1011,13 @@ section{
                   </div>
                   <p> كريمة ذره مع حبيبات الذره</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no47.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no47.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco47.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -954,12 +1026,13 @@ section{
                   </div>
                   <p> تونيكا بيكان كراميل</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no48.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no48.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco48.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -968,12 +1041,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no49.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no49.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco49.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -982,12 +1056,13 @@ section{
                   </div>
                   <p> اصابع طحنية بنت بتر</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no50.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no50.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco50.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -996,12 +1071,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no51.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no51.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco51.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1010,12 +1086,13 @@ section{
                   </div>
                   <p> كريمة البندق شوكلت بيج</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no52.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no52.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco52.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1024,12 +1101,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no53.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no53.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco53.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1038,12 +1116,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no54.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no54.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco54.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1052,12 +1131,13 @@ section{
                   </div>
                   <p> سجنتشر قلوسي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no55.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no55.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco55.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1066,12 +1146,13 @@ section{
                   </div>
                   <p> بيكن كراميل قلوسي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no56.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no56.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco56.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1080,12 +1161,13 @@ section{
                   </div>
                   <p> مستطيل لوز وبندق</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no57.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no57.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco57.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1094,12 +1176,13 @@ section{
                   </div>
                   <p> اصابع فيوتين</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no58.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no58.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco58.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1108,12 +1191,13 @@ section{
                   </div>
                   <p> هاف مون</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no59.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no59.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco59.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1122,12 +1206,13 @@ section{
                   </div>
                   <p> ويفر قلوسي نوتيلا</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no60.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no60.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco60.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1136,12 +1221,13 @@ section{
                   </div>
                   <p> اصابع لوز وبندق</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no61.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no61.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco61.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1150,12 +1236,13 @@ section{
                   </div>
                   <p> بابلز شوكلت برالين</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no62.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no62.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco62.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1164,12 +1251,13 @@ section{
                   </div>
                   <p> سجنتشر كرانشي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no63.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no63.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco63.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1178,12 +1266,13 @@ section{
                   </div>
                   <p> فرورشيه</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no64.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no64.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco64.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1192,12 +1281,13 @@ section{
                   </div>
                   <p> كروكان فستق مذهب</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no65.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no65.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco65.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1206,12 +1296,13 @@ section{
                   </div>
                   <p> ب رالين دائري</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no66.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no66.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco66.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1220,12 +1311,13 @@ section{
                   </div>
                   <p> ترافل جوز هند</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no67.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no67.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco67.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1234,12 +1326,13 @@ section{
                   </div>
                   <p> روز بيري شوكولاته</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no68.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no68.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco68.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1248,12 +1341,13 @@ section{
                   </div>
                   <p> اصابع سولتد كراميل</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no69.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no69.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco69.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1262,12 +1356,13 @@ section{
                   </div>
                   <p> هزلنت برالينه ورده بيج</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no70.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no70.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco70.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1276,12 +1371,13 @@ section{
                   </div>
                   <p> ويفر سجنشتر قلوسي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no71.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no71.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco71.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1290,12 +1386,13 @@ section{
                   </div>
                   <p> مربع فيوتين قلوسي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no72.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no72.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco72.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1304,12 +1401,13 @@ section{
                   </div>
                   <p> قلوسي لوز</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no73.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no73.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco73.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1318,12 +1416,13 @@ section{
                   </div>
                   <p> دايجستيف كروكان</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no74.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no74.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco74.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1332,12 +1431,13 @@ section{
                   </div>
                   <p> ويفر نص دائرة</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no75.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no75.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco75.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1346,12 +1446,13 @@ section{
                   </div>
                   <p> ويفر حلزوني</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no76.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no76.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco76.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1360,12 +1461,13 @@ section{
                   </div>
                   <p> اصالع بنت بتر</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no77.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no77.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco77.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1374,12 +1476,13 @@ section{
                   </div>
                   <p> كب قلوسي كرانشي</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no78.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no78.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco78.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1388,12 +1491,13 @@ section{
                   </div>
                   <p> ليمون مع قطع زنجبيل</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no79.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no79.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco79.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1402,68 +1506,73 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no80.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no80.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco80.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>  شوكلت اعواد ملون</p>
+                  <p> شوكلت اعواد ملون</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no81.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no81.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco81.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>  شوكلت اعواد ملون</p>
+                  <p> شوكلت اعواد ملون</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no82.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no82.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco82.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>  شوكلت اعواد ملون</p>
+                  <p> شوكلت اعواد ملون</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no83.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no83.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco83.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>  شوكلت اعواد ملون</p>
+                  <p> شوكلت اعواد ملون</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no84.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no84.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco84.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1472,12 +1581,13 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no85.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no85.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco85.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1486,12 +1596,13 @@ section{
                   </div>
                   <p> كراميل مملح مع جوز هند</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no86.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no86.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco86.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1500,12 +1611,11 @@ section{
                   </div>
                   <p> xxxxx</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/chocolate/choc_no87.jpg"   class="img-fluid" alt="">
+                    <img src="image/chocolate/choc_no87.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-
-                      
                       <div class="portfolio-links">
                         <a href="assets/sales/chocolate/choco87.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -1513,11 +1623,557 @@ section{
                     </div>
                   </div>
                   <p> ويقر مملح</p>
-
-                
                 </div>
-                
-                
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no88.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco88.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no89.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco89.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no90.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco90.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no91.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco91.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no92.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco92.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no93.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco93.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no94.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco94.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no95.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco95.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no96.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco96.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no97.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco97.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no98.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco98.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no99.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco99.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no100.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco100.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no101.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco101.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no102.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco102.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no103.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco103.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no104.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco104.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no105.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco105.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no106.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco106.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no107.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco107.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no108.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco108.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no109.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco109.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no110.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco110.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no111.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco111.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no112.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco112.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no113.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco113.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no114.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco114.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no115.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco115.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no116.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco116.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no117.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco117.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no118.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco118.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no119.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco119.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no120.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco120.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no121.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco121.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no122.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco122.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no123.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco123.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no124.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco124.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no125.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco125.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no126.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco126.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no127.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco127.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no128.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco128.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <img src="image/chocolate/choc_no129.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <div class="portfolio-links">
+                        <a href="assets/sales/chocolate/choco129.html" class="portfolio-details-lightbox"
+                          data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <p> ويقر مملح</p>
+                </div>
+
             </section>
           </div>
         </div>
@@ -1534,215 +2190,220 @@ section{
           <div class="accordion-body">
             <section id="portfolio" class="portfolio">
               <div class="row goal-container">
-                
+
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no1.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no1.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp1.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> اصابع جينيفيا  </p>
+                  <p> اصابع جينيفيا </p>
 
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no2.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no2.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp2.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> كريب  </p>
+                  <p> كريب </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no3.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no3.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp3.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> شوكلت فرنسي  </p>
+                  <p> شوكلت فرنسي </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no4.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no4.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp4.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> شوكلت فرنسي  </p>
+                  <p> شوكلت فرنسي </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no5.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no5.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp5.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p>   كرات اللوز</p>
+                  <p> كرات اللوز</p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no6.jpg"   class="img-fluid" alt="">
+                    <img src="image/import/import_no6.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp6.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> كرات البندق  </p>
+                  <p> كرات البندق </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no7.jpg"  class="img-fluid" alt="">
+                    <img src="image/import/import_no7.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp7.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> ترافل بندق  </p>
+                  <p> ترافل بندق </p>
 
-                </div><div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                   <div class="portfolio-wrap">
-                    <img src="image/import/import_no8.jpg"  class="img-fluid" alt="">
+                    <img src="image/import/import_no8.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
 
-                      
+
                       <div class="portfolio-links">
                         <a href="assets/sales/imported/imp8.html" class="portfolio-details-lightbox"
                           data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                       </div>
                     </div>
                   </div>
-                  <p> ترافل بستاشيو  </p>
+                  <p> ترافل بستاشيو </p>
 
                 </div>
-                </div>
+              </div>
             </section>
           </div>
         </div>
       </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              كاننبيهات والموالح 
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            كاننبيهات والموالح
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
           </div>
         </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                حلا زفة
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-              </div>
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            حلا زفة
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
           </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  مشروبات
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  صواني بيع
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                </div>
-              </div>
-            </div>
-            
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  البوكسات والتوزيعات
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            مشروبات
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
           </div>
-        
-          <footer>
-            <div class="text">  اعمالنا </div>
-            <div class="all">
-              <img src="image/WhatsApp Image 2024-10-26 at 21.55.27_d17b544b.jpg">
-              <img src="image/WhatsApp Image 2024-10-26 at 21.55.27_d919eaac.jpg">
-              <img src="image/WhatsApp Image 2024-10-26 at 21.55.28_21f0589d.jpg">
-            </div>
-            <div class="social">
-              <i class="bi bi-whatsapp"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-snapchat"></i>
-            </div>
-            <div class="phone">
-              <i class="bi bi-telephone"></i> : +966 55 450 4570
-            </div>
-
-          </footer>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            صواني بيع
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          </div>
         </div>
       </div>
 
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            البوكسات والتوزيعات
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="text"> اعمالنا </div>
+      <div class="all">
+        <img src="image/WhatsApp Image 2024-10-26 at 21.55.27_d17b544b.jpg">
+        <img src="image/WhatsApp Image 2024-10-26 at 21.55.27_d919eaac.jpg">
+        <img src="image/WhatsApp Image 2024-10-26 at 21.55.28_21f0589d.jpg">
+      </div>
+      <div class="social">
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-snapchat"></i>
+      </div>
+      <div class="phone">
+        <i class="bi bi-telephone"></i> : +966 55 450 4570
+      </div>
+
+    </footer>
+  </div>
+  </div>
 
 
 
@@ -1755,18 +2416,19 @@ section{
 
 
 
-        <!-- ======= Footer ======= -->
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- ======= Footer ======= -->
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
