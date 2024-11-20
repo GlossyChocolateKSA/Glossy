@@ -779,6 +779,7 @@ folio
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
+  
   text-align: center;
   z-index: 4;
 }
@@ -815,6 +816,7 @@ folio
 }
 
 .portfolio-details .portfolio-details-slider img {
+  
   width: 100%;
 }
 
