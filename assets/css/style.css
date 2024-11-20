@@ -13,7 +13,7 @@
   src: url(font2.ttf);
   font-family: font2;
 }
-*{
+body{
   font-family: font2;
 
 }
